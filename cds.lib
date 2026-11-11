@@ -1,0 +1,12 @@
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE AndrewTest /home/sternbal/work/AndrewTest
+#Removed by ddDeleteObj: DEFINE Inverter /home/onwuxc/work/Inverter
+DEFINE Basic_parts /home/onwuxc/work/Basic_parts
+DEFINE adder /home/onwuxc/work/adder
+DEFINE 4_bit_multiplier /home/onwuxc/work/4_bit_multiplier
+DEFINE Counter /home/onwuxc/work/Counter

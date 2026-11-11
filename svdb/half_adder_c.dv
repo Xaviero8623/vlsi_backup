@@ -1,0 +1,12 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/half_adder_c.dv
+dv_start unmatched                                
+dv_cell {half_adder_c} {half_adder_c} unmatched
+dv_obj_count -transformed_nets {10 9} -transformed_inst {5 5} -transformed_port {6 6}
+dv_discrep 1 {Incorrect Nets} -inst_count { 6 6}
+dv_discrep_meta {category {Miscellaneous}}
+dv_discrep_line {Net } -lnet {VDD} {                                                   } -snet {VDD} {}
+dv_discrep_line {    } -lnet {9} {                                                    }
+dv_discrep_line {--- 6 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {}
+dv_end

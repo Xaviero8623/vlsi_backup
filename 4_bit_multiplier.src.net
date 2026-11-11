@@ -1,0 +1,136 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  4_bit_multiplier
+* Top Cell Name: 4_bit_multiplier
+* View Name:     schematic
+* Netlisted on:  Oct 13 00:11:40 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand ina inb out vdd vss
+*.PININFO ina:I inb:I out:O vdd:B vss:B
+MM1 out inb vdd vdd PMOS_VTL W=200n L=50n
+MM0 out ina vdd vdd PMOS_VTL W=200n L=50n
+MM3 net9 inb vss vss NMOS_VTL W=200n L=50n
+MM2 out ina net9 vss NMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter in out vdd vss
+*.PININFO in:I out:O vdd:B vss:B
+MM0 out in vss vss NMOS_VTL W=100n L=50n
+MM1 out in vdd vdd PMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    and
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT and ina inb out vdd vss
+*.PININFO ina:I inb:I out:O vdd:B vss:B
+XI0 ina inb net3 vdd vss / nand
+XI1 net3 out vdd vss / inverter
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    half_adder_c
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT half_adder_c carry ina inb sum vdd vss
+*.PININFO ina:I inb:I carry:O sum:O vdd:B vss:B
+XI3 net15 net14 sum vdd vss / nand
+XI2 net1 inb net14 vdd vss / nand
+XI1 ina net1 net15 vdd vss / nand
+XI0 ina inb net1 vdd vss / nand
+XI4 net1 carry vdd vss / inverter
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    half_adder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT half_adder carry ina inb sum vdd vss
+*.PININFO ina:I inb:I carry:O sum:O vdd:B vss:B
+XI3 net8 net13 sum vdd vss / nand
+XI2 carry inb net13 vdd vss / nand
+XI1 ina carry net8 vdd vss / nand
+XI0 ina inb carry vdd vss / nand
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    full_adder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT full_adder cin cout ina inb sum vdd vss
+*.PININFO cin:I ina:I inb:I cout:O sum:O vdd:B vss:B
+XI1 net10 net3 cin sum vdd vss / half_adder
+XI0 net4 ina inb net3 vdd vss / half_adder
+XI2 net10 net4 cout vdd vss / nand
+.ENDS
+
+************************************************************************
+* Library Name: 4_bit_multiplier
+* Cell Name:    4_bit_multiplier
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 4_bit_multiplier a0 a1 a2 a3 b0 b1 b2 b3 s0 s1 s2 s3 s4 s5 s6 s7 vdd 
++ vss
+*.PININFO a0:I a1:I a2:I a3:I b0:I b1:I b2:I b3:I s0:O s1:O s2:O s3:O s4:O 
+*.PININFO s5:O s6:O s7:O vdd:B vss:B
+XI35 a3 b3 net45 vdd vss / and
+XI34 a3 b2 net44 vdd vss / and
+XI33 a2 b3 net43 vdd vss / and
+XI32 a3 b1 net42 vdd vss / and
+XI31 a0 b0 s0 vdd vss / and
+XI30 a1 b0 net32 vdd vss / and
+XI29 a0 b1 net31 vdd vss / and
+XI28 a1 b1 net30 vdd vss / and
+XI27 a0 b3 net21 vdd vss / and
+XI26 a1 b2 net20 vdd vss / and
+XI25 a2 b0 net19 vdd vss / and
+XI24 a0 b2 net18 vdd vss / and
+XI3 a2 b2 net55 vdd vss / and
+XI2 a1 b3 net52 vdd vss / and
+XI1 a3 b0 net50 vdd vss / and
+XI0 a2 b1 net3 vdd vss / and
+XI44 net60 net39 net53 s4 vdd vss / half_adder_c
+XI39 net14 net20 net21 net12 vdd vss / half_adder_c
+XI37 net9 net30 net18 net8 vdd vss / half_adder_c
+XI36 net5 net32 net31 s1 vdd vss / half_adder_c
+XI47 net65 s7 net45 net47 s6 vdd vss / full_adder
+XI46 net60 net65 net48 net51 s5 vdd vss / full_adder
+XI45 net26 net47 net44 net43 net48 vdd vss / full_adder
+XI43 net28 net51 net42 net27 net53 vdd vss / full_adder
+XI42 net14 net26 net55 net52 net27 vdd vss / full_adder
+XI41 net15 net39 net50 net29 s3 vdd vss / full_adder
+XI40 net9 net28 net3 net12 net29 vdd vss / full_adder
+XI38 net5 net15 net19 net8 s2 vdd vss / full_adder
+.ENDS
+

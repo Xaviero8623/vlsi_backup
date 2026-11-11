@@ -1,0 +1,37 @@
+* Design:	INVERTER
+* Vendor:	"Siemens"
+* Program:	"Calibre xRC"
+* Version:	"v2026.3_27.19"
+* Created:	"Mon Sep 21 12:03:08 2026"
+* Nominal Temperature: 25C
+* Circuit Temperature: 25C
+*  
+* Integrated TICER reduction is not enabled.
+* SHORT DELAY THRESHOLD: 2e-14
+* Fill Mode: G
+* PEX REDUCE CC ABSOLUTE : disabled
+* PEX REDUCE CC RATIO : disabled
+
+
+
+.include "inverter.pex.netlist.pex"
+
+*
+.subckt INVERTER IN OUT VSS VDD
+*
+* IN IN
+* OUT OUT
+* VSS VSS
+* VDD VDD
+*
+*
+
+MM0 N_OUT_MM0_d N_IN_MM0_g N_VSS_MM0_s N_VSS_MM0_b NMOS_VTL L=9e-08 W=1.8e-07
++ AD=2.025e-14 AS=2.205e-14 PD=5.85e-07 PS=6.05e-07
+MM1 N_OUT_MM1_d N_IN_MM1_g N_VDD_MM1_s N_VDD_MM1_b PMOS_VTL L=9e-08 W=3.6e-07
++ AD=4.05e-14 AS=4.14e-14 PD=9.45e-07 PS=9.5e-07
+
+
+.include "inverter.pex.netlist.INVERTER.pxi"
+.ends
+*

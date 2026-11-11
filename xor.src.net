@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Basic_parts
+* Top Cell Name: xor
+* View Name:     schematic
+* Netlisted on:  Nov  2 13:10:29 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    xor
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT xor a b out vdd vss
+*.PININFO a:I b:I out:O vdd:B vss:B
+MM5 net1 b vss vss NMOS_VTL W=100n L=50n
+MM4 out net1 a vss NMOS_VTL W=100n L=50n
+MM0 out a net1 vss NMOS_VTL W=100n L=50n
+MM3 net1 b vdd vdd PMOS_VTL W=200n L=50n
+MM1 out b a vdd PMOS_VTL W=200n L=50n
+MM2 out a b vdd PMOS_VTL W=200n L=50n
+.ENDS
+

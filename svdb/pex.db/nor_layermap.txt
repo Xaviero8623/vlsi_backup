@@ -1,0 +1,7 @@
+9 poly 0 poly
+54 metal1 0 metal1
+108 contact 0 contact
+47 nsub 0 nsub
+37 psrcdrn 0 psrcdrn
+36 nsrcdrn 0 nsrcdrn
+39 pwell 0 pwell

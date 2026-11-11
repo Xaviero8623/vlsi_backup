@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/4_bit_counter.dv
+dv_start matched                                  
+dv_cell {4_bit_counter} {4_bit_counter} matched
+dv_obj_count -transformed_nets {77 77} -transformed_inst {109 109} -transformed_port {14 14}
+dv_end

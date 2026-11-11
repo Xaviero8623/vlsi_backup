@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1793658767 1793658767
+lvs_ExtOutFile RUNDIR /home/onwuxc/work
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST 2_1_mux.sp
+lvs_ExtOutFile EXTRACTION_REPORT 2_1_mux.lvs.report.ext

@@ -1,0 +1,114 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC25.1-64b 05/26/2026 20:36 (cpgbld34) $
+          : sub-version  IC25.1-64b.ISR6.31 
+Started at: 03-Nov-2026  01:50:48
+User Name : onwuxc
+Host Name : R-2O54HHUWS9DHJ
+Directory : /home/onwuxc/work
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+Basic_parts/2_1_mux/layout      0        0       0        34     10     0         7      0             0      0     0     0       0       
+Basic_parts/T_gate/layout       0        0       0        13     2      0         6      0             0      0     0     0       0       
+Basic_parts/and/layout          2        0       0        0      1      0         5      0             0      0     0     0       0       
+Basic_parts/clocked_inv/layout  0        0       0        12     9      0         6      0             0      0     0     0       0       
+Basic_parts/inverter/layout     0        0       0        15     2      0         4      0             0      0     0     0       0       
+Basic_parts/nand/layout         0        0       0        12     11     0         5      0             0      0     0     0       0       
+Basic_parts/xor/layout          0        0       0        33     9      0         7      0             0      0     0     0       0       
+Counter/4_bit_counter/layout    22       0       0        12     48     0         12     0             0      0     0     0       0       
+Counter/flipflop/layout         10       0       0        3      24     0         6      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_N/layout                              0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_P/layout                              0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+--------------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
+--------------------------------------------------------------------------------------------------------------------------------------------
+Basic_parts/2_1_mux/layout      0        0          0          0          0          0     0        0        0         17        0        
+Basic_parts/T_gate/layout       0        0          0          0          0          0     0        0        0         8         0        
+Basic_parts/and/layout          0        0          0          0          0          0     0        0        0         0         0        
+Basic_parts/clocked_inv/layout  0        0          0          0          0          0     0        0        0         9         0        
+Basic_parts/inverter/layout     0        0          0          0          0          0     0        0        0         7         0        
+Basic_parts/nand/layout         0        0          0          0          0          0     0        0        0         9         0        
+Basic_parts/xor/layout          0        0          0          0          0          0     0        0        0         17        0        
+Counter/4_bit_counter/layout    0        0          0          0          0          0     0        0        0         76        0        
+Counter/flipflop/layout         0        0          0          0          0          0     0        0        0         26        0        
+NCSU_TechLib_FreePDK45/M1_N/layout                              0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_P/layout                              0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0          0          0          0          0     0        0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+pwell           drawing         2       0         0        11       0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        13       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        22       0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        11       0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        11       0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        27       18       0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        5        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        56       42       49       0             0    0   0   0     0      0      
+via1            drawing         12      0         0        5        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        6        43       5        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        1        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        1        13       4        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		34
+	Array Instances:		0
+	Polygons:			0
+	Paths:				116
+	Rectangles:			169
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Stitches:			0
+	Standard Vias:			169
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				58
+	TextDisplay:		0
+	Cells:				20
+Design Libraries: 
+
+DEFINE Counter	/home/onwuxc/work/Counter
+DEFINE NCSU_TechLib_FreePDK45	/opt/PDK/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE Basic_parts	/home/onwuxc/work/Basic_parts

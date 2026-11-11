@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1791184797 1791184798
+lvs_ExtOutFile RUNDIR /home/onwuxc/work
+lvs_ExtOutFile RULES_FILE _calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/4_bit_adder.sp
+lvs_ExtOutFile EXTRACTION_REPORT 4_bit_adder.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/4_bit_adder.pdsp }

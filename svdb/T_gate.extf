@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1793602457 1793602457
+lvs_ExtOutFile RUNDIR /home/onwuxc/work
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST T_gate.sp
+lvs_ExtOutFile EXTRACTION_REPORT T_gate.lvs.report.ext

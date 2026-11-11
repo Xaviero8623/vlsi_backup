@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Basic_parts
+* Top Cell Name: clocked_inv
+* View Name:     schematic
+* Netlisted on:  Nov  2 02:11:07 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    clocked_inv
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT clocked_inv !c c in out vdd vss
+*.PININFO !c:I c:I in:I out:O vdd:B vss:B
+MM1 out !c net4 vdd PMOS_VTL W=200n L=50n
+MM0 net4 in vdd vdd PMOS_VTL W=200n L=50n
+MM3 net9 in vss vss NMOS_VTL W=100n L=50n
+MM2 out c net9 vss NMOS_VTL W=100n L=50n
+.ENDS
+

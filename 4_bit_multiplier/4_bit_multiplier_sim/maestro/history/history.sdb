@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" historyDataVersion="7" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Oct 13 00:08:02 2026</timestamp>
+			<uuid>{1a5a731f-bf6d-4167-9fed-0aaba035145e}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/onwuxc/work/4_bit_multiplier/4_bit_multiplier_sim/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<psfdir>/home/onwuxc/simulation/4_bit_multiplier/4_bit_multiplier_sim/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/4_bit_multiplier/4_bit_multiplier_sim/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<historyPsfSize>Not Computed</historyPsfSize>
+		</historyentry>
+	</history>
+</setupdb>

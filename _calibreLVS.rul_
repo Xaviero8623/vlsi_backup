@@ -1,0 +1,31 @@
+//
+//  Rule file generated on Tue Nov 3 08:48:52 2026
+//  by Calibre Interactive v2026.3_27.19    Thu Aug 6 14:59:15 PDT 2026
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "4_bit_counter.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "4_bit_counter"
+
+SOURCE PATH "4_bit_counter.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "4_bit_counter"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "4_bit_counter.lvs.report"
+
+LVS FILTER UNUSED OPTION NONE SOURCE
+LVS FILTER UNUSED OPTION NONE LAYOUT
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "4_bit_counter.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/PDK/FreePDK45/ncsu_basekit/techfile/calibre/calibreLVS.rul"

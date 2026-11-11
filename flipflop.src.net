@@ -1,0 +1,74 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Counter
+* Top Cell Name: flipflop
+* View Name:     schematic
+* Netlisted on:  Nov  2 21:56:43 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter in out vdd vss
+*.PININFO in:I out:O vdd:B vss:B
+MM0 out in vss vss NMOS_VTL W=100n L=50n
+MM1 out in vdd vdd PMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    T_gate
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT T_gate Vc in nVC out vdd vss
+*.PININFO Vc:I in:I nVC:I out:O vdd:B vss:B
+MM0 in Vc out vss NMOS_VTL W=100n L=50n
+MM1 in nVC out vdd PMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    clocked_inv
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT clocked_inv !c c in out vdd vss
+*.PININFO !c:I c:I in:I out:O vdd:B vss:B
+MM1 out !c net4 vdd PMOS_VTL W=200n L=50n
+MM0 net4 in vdd vdd PMOS_VTL W=200n L=50n
+MM3 net9 in vss vss NMOS_VTL W=100n L=50n
+MM2 out c net9 vss NMOS_VTL W=100n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Counter
+* Cell Name:    flipflop
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT flipflop !q c_ext d q vdd vss
+*.PININFO c_ext:I d:I !q:O q:O vdd:B vss:B
+XI7 !q q vdd vss / inverter
+XI6 net3 net15 vdd vss / inverter
+XI1 !c c vdd vss / inverter
+XI0 c_ext !c vdd vss / inverter
+XI5 !c net4 c !q vdd vss / T_gate
+XI4 c net10 !c net3 vdd vss / T_gate
+XI3 c net15 !c !q vdd vss / T_gate
+XI2 !c d c net3 vdd vss / T_gate
+XI10 !c c net15 net10 vdd vss / clocked_inv
+XI11 !c c q net4 vdd vss / clocked_inv
+.ENDS
+

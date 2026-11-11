@@ -1,0 +1,57 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  adder
+* Top Cell Name: half_adder_c
+* View Name:     schematic
+* Netlisted on:  Oct 11 22:05:54 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand ina inb out vdd vss
+*.PININFO ina:I inb:I out:O vdd:B vss:B
+MM1 out inb vdd vdd PMOS_VTL W=200n L=50n
+MM0 out ina vdd vdd PMOS_VTL W=200n L=50n
+MM3 net9 inb vss vss NMOS_VTL W=200n L=50n
+MM2 out ina net9 vss NMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter in out vdd vss
+*.PININFO in:I out:O vdd:B vss:B
+MM0 out in vss vss NMOS_VTL W=100n L=50n
+MM1 out in vdd vdd PMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    half_adder_c
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT half_adder_c carry ina inb sum vdd vss
+*.PININFO ina:I inb:I carry:O sum:O vdd:B vss:B
+XI3 net15 net14 sum vdd vss / nand
+XI2 net1 inb net14 vdd vss / nand
+XI1 ina net1 net15 vdd vss / nand
+XI0 ina inb net1 vdd vss / nand
+XI4 net1 carry vdd vss / inverter
+.ENDS
+

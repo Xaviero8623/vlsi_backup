@@ -1,0 +1,9 @@
+// modelName type element netlistModelName netlistElementName numPins [pins] ORIG origModelName origElement origNetlistModelName origNetlistElementName [origPins]
+pmos_vtl MOS mp *** *** 4 g s d b  ORIG PMOS_VTL mp *** *** G S D b
+nmos_vtl MOS mn *** *** 4 g s d b  ORIG NMOS_VTL mn *** *** G S D b
+pmos_vth MOS mp *** *** 4 g s d b  ORIG PMOS_VTH mp *** *** G S D b
+nmos_vth MOS mn *** *** 4 g s d b  ORIG NMOS_VTH mn *** *** G S D b
+pmos_vtg MOS mp *** *** 4 g s d b  ORIG PMOS_VTG mp *** *** G S D b
+nmos_vtg MOS mn *** *** 4 g s d b  ORIG NMOS_VTG mn *** *** G S D b
+pmos_thkox MOS mp *** *** 4 g s d b  ORIG PMOS_THKOX mp *** *** G S D b
+nmos_thkox MOS mn *** *** 4 g s d b  ORIG NMOS_THKOX mn *** *** G S D b

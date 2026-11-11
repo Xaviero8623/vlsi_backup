@@ -1,0 +1,8 @@
+*
+Cell: half_adder (4)
+Source: 2 XI6/MM0 XI6/MM1
+Layout: 2 X0/M3 X0/M2
+*
+Cell: half_adder (4)
+Source: 2 XI6/MM3 XI6/MM2
+Layout: 2 X0/M0 X0/M1

@@ -1,0 +1,86 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC25.1-64b 05/26/2026 20:36 (cpgbld34) $
+          : sub-version  IC25.1-64b.ISR6.31 
+Started at: 03-Oct-2026  20:04:36
+User Name : onwuxc
+Host Name : R-2O54HHUWS9DHJ
+Directory : /home/onwuxc/work
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+Basic_parts/nand/layout         0        0       0        12     11     0         5      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_N/layout                              0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_P/layout                              0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+adder/full_adder/layout         3        0       0        6      4      0         7      0             0      0     0     0       0       
+adder/half_adder/layout         4        0       0        2      11     0         4      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+--------------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
+--------------------------------------------------------------------------------------------------------------------------------------------
+Basic_parts/nand/layout         0        0          0          0          0          0     0        0        0         9         0        
+NCSU_TechLib_FreePDK45/M1_N/layout                              0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_P/layout                              0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M1_POLY/layout                           0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+adder/full_adder/layout         0        0          0          0          0          0     0        0        0         3         0        
+adder/half_adder/layout         0        0          0          0          0          0     0        0        0         10        0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        4        0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        5        3        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        3        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        12       13       13       0             0    0   0   0     0      0      
+via1            drawing         12      0         0        1        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        1        10       3        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		7
+	Array Instances:		0
+	Polygons:			0
+	Paths:				26
+	Rectangles:			34
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Stitches:			0
+	Standard Vias:			22
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				16
+	TextDisplay:		0
+	Cells:				7
+Design Libraries: 
+
+DEFINE NCSU_TechLib_FreePDK45	/opt/PDK/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE adder	/home/onwuxc/work/adder
+DEFINE Basic_parts	/home/onwuxc/work/Basic_parts

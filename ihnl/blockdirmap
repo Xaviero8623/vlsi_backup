@@ -1,0 +1,11 @@
+CADENCE IHNL11149
+
+Basic_parts inverter schematic cds0
+Basic_parts T_gate schematic cds1
+Basic_parts clocked_inv schematic cds2
+Counter flipflop schematic cds3
+Basic_parts 2_1_mux schematic cds4
+Basic_parts xor schematic cds5
+Basic_parts nand schematic cds6
+Basic_parts and schematic cds7
+Counter 4_bit_counter schematic cds8

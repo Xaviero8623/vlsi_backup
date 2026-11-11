@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Basic_parts
+* Top Cell Name: T_gate
+* View Name:     schematic
+* Netlisted on:  Nov  2 00:54:13 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    T_gate
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT T_gate Vc in nVC out vdd vss
+*.PININFO Vc:I in:I nVC:I out:O vdd:B vss:B
+MM0 in Vc out vss NMOS_VTL W=100n L=50n
+MM1 in nVC out vdd PMOS_VTL W=200n L=50n
+.ENDS
+

@@ -1,0 +1,70 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  adder
+* Top Cell Name: 2_bit_adder
+* View Name:     schematic
+* Netlisted on:  Oct  5 00:30:15 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Basic_parts
+* Cell Name:    nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand ina inb out vdd vss
+*.PININFO ina:I inb:I out:O vdd:B vss:B
+MM1 out inb vdd vdd PMOS_VTL W=200n L=50n
+MM0 out ina vdd vdd PMOS_VTL W=200n L=50n
+MM3 net9 inb vss vss NMOS_VTL W=200n L=50n
+MM2 out ina net9 vss NMOS_VTL W=200n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    half_adder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT half_adder carry ina inb sum vdd vss
+*.PININFO ina:I inb:I carry:O sum:O vdd:B vss:B
+XI3 net8 net13 sum vdd vss / nand
+XI2 carry inb net13 vdd vss / nand
+XI1 ina carry net8 vdd vss / nand
+XI0 ina inb carry vdd vss / nand
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    full_adder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT full_adder cin cout ina inb sum vdd vss
+*.PININFO cin:I ina:I inb:I cout:O sum:O vdd:B vss:B
+XI1 net10 net3 cin sum vdd vss / half_adder
+XI0 net4 ina inb net3 vdd vss / half_adder
+XI2 net10 net4 cout vdd vss / nand
+.ENDS
+
+************************************************************************
+* Library Name: adder
+* Cell Name:    2_bit_adder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 2_bit_adder a0 a1 b0 b1 cout s0 s1 vdd vss
+*.PININFO a0:I a1:I b0:I b1:I cout:O s0:O s1:O vdd:B vss:B
+XI0 net4 a0 b0 s0 vdd vss / half_adder
+XI1 net7 cout a1 b1 s1 vdd vss / full_adder
+XI2 net4 net4 net7 vdd vss / nand
+.ENDS
+

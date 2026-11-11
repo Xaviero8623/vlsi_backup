@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/onwuxc/work
+pex_PexParam LAYOUT_PRIMARY full_adder
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_BSPEFS { {full_adder "" pex.db/full_adder.bspef "" } } 

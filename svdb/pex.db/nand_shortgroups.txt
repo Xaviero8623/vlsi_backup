@@ -1,0 +1,5 @@
+* Net: vdd
+ M2:d;6 M3:s
+ M2:b;10 M3:b
+* Net: vss
+ M0:b;9 M1:b

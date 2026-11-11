@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+Counter/4_bit_counter/schematic 4_bit_counter
+Basic_parts/and/schematic and
+Basic_parts/xor/schematic xor
+Basic_parts/clocked_inv/schematic clocked_inv
+Basic_parts/nand/schematic nand
+Basic_parts/T_gate/schematic T_gate
+Counter/flipflop/schematic flipflop
+Basic_parts/2_1_mux/schematic 2_1_mux
+Basic_parts/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

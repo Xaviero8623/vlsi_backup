@@ -1,0 +1,8 @@
+*
+Cell: 2_bit_adder (5)
+Source: 2 XI2/MM0 XI2/MM1
+Layout: 2 X1/M3 X1/M2
+*
+Cell: 2_bit_adder (5)
+Source: 2 XI2/MM3 XI2/MM2
+Layout: 2 X1/M0 X1/M1

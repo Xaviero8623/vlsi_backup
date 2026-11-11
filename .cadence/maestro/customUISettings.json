@@ -1,0 +1,1557 @@
+{
+    "4_bit_multiplier_4_bit_multiplier_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 152
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 152
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 152
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 152
+            },
+            "Save": {
+                "visible": true,
+                "width": 152
+            },
+            "Spec": {
+                "visible": true,
+                "width": 152
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 152
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "4_bit_multiplier_4_bit_multiplier_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "4_bit_multiplier_4_bit_multiplier_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "4_bit_multiplier_4_bit_multiplier_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_2-1_mux_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 152
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 152
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 152
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 152
+            },
+            "Save": {
+                "visible": true,
+                "width": 152
+            },
+            "Spec": {
+                "visible": true,
+                "width": 152
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 152
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_2-1_mux_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_2-1_mux_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_2-1_mux_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_T_gate_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 208
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "EvalType": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 208
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 204
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Tags": {
+                "visible": false,
+                "width": 80
+            },
+            "Test": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 208
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            },
+            "Weight": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_T_gate_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_T_gate_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_T_gate_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_and_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 208
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 208
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 204
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 208
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_and_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_and_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_and_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_clocked_inv_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 256
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 256
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 256
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 256
+            },
+            "Save": {
+                "visible": true,
+                "width": 256
+            },
+            "Spec": {
+                "visible": true,
+                "width": 256
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 256
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_clocked_inv_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_clocked_inv_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_clocked_inv_sim_maestro_resultsDetail": {
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        }
+    },
+    "Basic_parts_inverter_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 246
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 246
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 246
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 246
+            },
+            "Save": {
+                "visible": true,
+                "width": 246
+            },
+            "Spec": {
+                "visible": true,
+                "width": 246
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 246
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_inverter_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_inverter_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_inverter_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_nand_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 208
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 208
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 204
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 208
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_nand_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_nand_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_nand_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_nor_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 191
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 191
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 191
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 191
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_nor_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_nor_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_nor_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Basic_parts_xor_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 256
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 256
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 256
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 256
+            },
+            "Save": {
+                "visible": true,
+                "width": 256
+            },
+            "Spec": {
+                "visible": true,
+                "width": 256
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 256
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Basic_parts_xor_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Basic_parts_xor_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Basic_parts_xor_sim_maestro_resultsDetail": {
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        }
+    },
+    "Counter_4_bit_counter_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 285
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 285
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 285
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 285
+            },
+            "Save": {
+                "visible": true,
+                "width": 285
+            },
+            "Spec": {
+                "visible": true,
+                "width": 202
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 285
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Counter_4_bit_counter_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Counter_4_bit_counter_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Counter_4_bit_counter_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Counter_8_bit_counter_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 191
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 191
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 191
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 191
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Counter_8_bit_counter_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Counter_8_bit_counter_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Counter_8_bit_counter_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Counter_ff_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 208
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 208
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 204
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 208
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "Counter_ff_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Counter_ff_sim_1": {
+                "visible": true
+            },
+            "Show All Tests": {
+                "visible": true
+            }
+        }
+    },
+    "Counter_ff_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    },
+    "Counter_flipflop_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 159
+            },
+            "Digits": {
+                "visible": true,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 159
+            },
+            "Notation": {
+                "visible": true,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 159
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 159
+            },
+            "Save": {
+                "visible": true,
+                "width": 159
+            },
+            "Spec": {
+                "visible": true,
+                "width": 159
+            },
+            "Suffix": {
+                "visible": true,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 159
+            },
+            "Units": {
+                "visible": true,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "adder_2_bit_adder_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 191
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 191
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 191
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 191
+            },
+            "Save": {
+                "visible": true,
+                "width": 191
+            },
+            "Spec": {
+                "visible": true,
+                "width": 191
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 191
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "adder_2_bit_adder_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Show All Tests": {
+                "visible": true
+            },
+            "adder_2_bit_adder_sim_1": {
+                "visible": true
+            }
+        }
+    },
+    "adder_2_bit_adder_sim_maestro_resultsDetail": {
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        }
+    },
+    "adder_4_bit_adder_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 256
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 256
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 256
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 256
+            },
+            "Save": {
+                "visible": true,
+                "width": 256
+            },
+            "Spec": {
+                "visible": true,
+                "width": 256
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 256
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "adder_4_bit_adder_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Show All Tests": {
+                "visible": true
+            },
+            "adder_4_bit_adder_sim_1": {
+                "visible": true
+            }
+        }
+    },
+    "adder_4_bit_adder_sim_maestro_resultsDetail": {
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        }
+    },
+    "adder_full_adder_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 256
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 256
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 256
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 256
+            },
+            "Save": {
+                "visible": true,
+                "width": 256
+            },
+            "Spec": {
+                "visible": true,
+                "width": 256
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 256
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "adder_full_adder_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Show All Tests": {
+                "visible": true
+            },
+            "adder_full_adder_sim_1": {
+                "visible": true
+            }
+        }
+    },
+    "adder_full_adder_sim_maestro_resultsDetail": {
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        }
+    },
+    "adder_half_adder_sim_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 152
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 152
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 152
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 152
+            },
+            "Save": {
+                "visible": true,
+                "width": 152
+            },
+            "Spec": {
+                "visible": true,
+                "width": 152
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 152
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            },
+            "Spec": {
+                "visible": true
+            }
+        },
+        "outputsTestFilterMenu": null
+    },
+    "adder_half_adder_sim_maestro_resultsCommonData": {
+        "resultsTestFilterItems": {
+            "Show All Tests": {
+                "visible": true
+            },
+            "adder_half_adder_sim_1": {
+                "visible": true
+            }
+        }
+    },
+    "adder_half_adder_sim_maestro_resultsDetail": {
+        "columnOrder": null,
+        "columns": {
+            "Max": {
+                "visible": false,
+                "width": 100
+            },
+            "Min": {
+                "visible": false,
+                "width": 100
+            },
+            "Plot": {
+                "visible": false,
+                "width": 100
+            },
+            "Point": {
+                "visible": false,
+                "width": 80
+            },
+            "Save": {
+                "visible": false,
+                "width": 100
+            }
+        },
+        "configureTableOptions": null,
+        "splitterSize": null
+    }
+}

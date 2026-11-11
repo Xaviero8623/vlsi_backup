@@ -1,0 +1,42 @@
+* Design:	NAND
+* Vendor:	"Siemens"
+* Program:	"Calibre xRC"
+* Version:	"v2026.3_27.19"
+* Created:	"Mon Sep 21 20:32:09 2026"
+* Nominal Temperature: 25C
+* Circuit Temperature: 25C
+*  
+* Integrated TICER reduction is not enabled.
+* SHORT DELAY THRESHOLD: 2e-14
+* Fill Mode: G
+* PEX REDUCE CC ABSOLUTE : disabled
+* PEX REDUCE CC RATIO : disabled
+
+
+
+.include "nand.pex.netlist.pex"
+
+*
+.subckt NAND INA VDD OUT INB VSS
+*
+* INA INA
+* VDD VDD
+* OUT OUT
+* INB INB
+* VSS VSS
+*
+*
+
+MM2 NET9 N_INA_MM2_g N_VSS_MM2_s N_VSS_MM2_b NMOS_VTL L=9e-08 W=3.6e-07
++ AD=5.04e-14 AS=4.05e-14 PD=1e-06 PS=9.45e-07
+MM3 N_OUT_MM3_d N_INB_MM3_g NET9 N_VSS_MM2_b NMOS_VTL L=9e-08 W=3.6e-07
++ AD=4.05e-14 AS=5.04e-14 PD=9.45e-07 PS=1e-06
+MM0 N_OUT_MM0_d N_INA_MM0_g N_VDD_MM0_s N_VDD_MM0_b PMOS_VTL L=9e-08 W=3.6e-07
++ AD=4.05e-14 AS=5.04e-14 PD=9.45e-07 PS=1e-06
+MM1 N_OUT_MM1_d N_INB_MM1_g N_VDD_MM0_s N_VDD_MM0_b PMOS_VTL L=9e-08 W=3.6e-07
++ AD=4.05e-14 AS=5.04e-14 PD=9.45e-07 PS=1e-06
+
+
+.include "nand.pex.netlist.NAND.pxi"
+.ends
+*
